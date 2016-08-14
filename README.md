@@ -1,13 +1,13 @@
 # packNumbers
 
-Given an array of integers, write a method that will pack neighbouring numbers that are the same into the string X:N, where X is the integer value and N is the sequence length.
+Given an array of integers, pack neighbouring numbers that are the same as below:
 
 For example, this
 ```javascript
-pack([5, 5, 5, 7, 7, 3, 4, 7])
+packNumbers([9, 9, 1, 5, 5, 5, 9])
 ```
 
 should return
 ```javascript
-['5:3', '7:2', 3, 4, 7]
+["9:2", 1, "5:3", 9]
 ```
