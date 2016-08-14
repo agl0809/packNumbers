@@ -1,0 +1,29 @@
+{
+  "name": "pack-numbers",
+  "version": "1.0.0",
+  "description": "Packing neighbouring numbers",
+  "main": "src/packNumbers.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agl0809/packNumbers.git"
+  },
+  "keywords": [
+    "javascript",
+    "jasmine",
+    "tdd"
+  ],
+  "author": "Antonio García",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agl0809/packNumbers/issues"
+  },
+  "homepage": "https://github.com/agl0809/packNumbers#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jasmine": "^1.0.3",
+    "grunt-contrib-jshint": "^1.0.0"
+  }
+}
