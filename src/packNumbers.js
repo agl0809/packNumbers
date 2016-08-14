@@ -1,3 +1,8 @@
-/**
- * Created by agl0809 on 14/8/16.
- */
+function packNumbers(arr){
+    if(arr){
+        return arr;
+    }
+
+    return [];
+}
+
